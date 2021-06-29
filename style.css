@@ -1,0 +1,107 @@
+.nav {
+  display: flex;
+  min-height: 56px;
+  justify-content: flex-end
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.item {
+  font-size: 20px;
+  padding: 16px;
+  display: inline-block;
+}
+
+IMG.jeanluc {
+  height: 92px;
+  aspect-ratio: auto 272 / 92;
+  width: 272px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+footer {
+  background-color: #f2f2f2;
+  position:absolute;
+  bottom:80px;
+  width:100%;
+  padding-top:0;
+  height:50px;
+}
+
+.poupoux {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  color: #70757a;
+  flex: 1 1 auto;
+}
+.coucou {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.poupoux .element-5 {
+  align-self: center;
+}
+
+.poupoux .element-6 {
+  align-self: center;
+}
+
+.TEXTE {
+  font-family: Arial, sans-serif;
+  color: #70757a;
+}
+
+.middle {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.middle:hover {
+  color: rgba(0,0,0,0.87);
+  text-decoration: underline
+}
+
+#googlesearch {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+  width: auto;
+  display: flex;
+flex: 100%;
+margin-top: -37px;
+height: 34px;
+font-size: 16px;
+color: rgba(0,0,0,.87);
+word-wrap: break-word;
+outline: none;
+display: flex;
+flex: 100%;
+}
