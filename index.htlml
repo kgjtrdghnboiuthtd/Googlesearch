@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+  <script src="https://kit.fontawesome.com/7fdfee7519.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="nav">
+    <div class="left">
+    </div>
+    <div class="middle">
+      <a class="middle" href="https://mail.google.com/">Gmail</a>
+      <a class="middle" href="https://www.google.fr/imghp?hl=fr&ogbl">Image</a>
+      <i class="fas fa-th"></i><span class="sr-only">Nos outils.</span>
+      <a class="middle" href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/webhp%3Fhl%3Dfr%26sa%3DX%26ved%3D0ahUKEwjKydyfzbzxAhWWuaQKHU4nDbkQPAgI&ec=GAZAmgQ">Connexion</a>
+    </div>
+    <div class="right">
+    </div>
+  </div>
+  <img class="jeanluc" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+    alt="logo de jeanlucgoogle">
+  <input type="text" id="googlesearch" style="display:block; margin:auto;" name="name" required minlength="4"
+    maxlength="8" size="60">
+  <center>
+    <button center class="coucou">Recherche Google !!</button> <button class="coucou">J'ai de la chance 🍀</button>
+  </center>
+</body>
+
+<footer>
+  <div class="TEXTE">
+    <p>France</p>
+  </div>
+  <HR>
+  <div class="poupoux">
+    <div class="element 1">À propos</div>
+    <div class="element 2">Publicité</div>
+    <div class="element 3">Entreprise</div>
+    <div class="element 4">Comment fonctionne la recherche Google ?</div>
+    <div class="element-5"><i class="fas fa-seedling"></i span class="sr-only" >Tentative d'être neutre en carbone depuis
+      1998 </span></div>
+    <div class="element-6">Info consommateurs</div>
+    <div class="element 7">Confidentialité</div>
+    <div class="element 8">Conditions</div>
+    <div class="element 9">Paramétres</div>
+  </div>
+</footer>
+
+</html>
